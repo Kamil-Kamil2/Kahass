@@ -1,0 +1,106 @@
+*{
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.2), black);
+    padding: 4.8px;
+    z-index: 100;
+}
+
+.logo .Title{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Grenze Gotisch", serif;
+    
+}
+
+.logo{
+   margin-top: -10px; 
+   margin-left: 5px;
+}
+
+.navbar-links{
+    position: absolute;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 18.4px; 
+    margin-right: -21px;
+    translate: 0 -13px;
+    border-radius: 0 0 0 10px;
+    border: none solid 2px;
+    height: 20px;
+
+}
+
+.link{
+    color: white;
+    /* background: linear-gradient(from left, black, rgba(0, 0, 0, 0.3)); */
+    
+}
+
+.link:hover{
+    color: rgb(255, 45, 45);
+}
+
+.Apply{
+    background: rgb(33, 0, 251);
+    padding: 8px;
+    border-radius: 5px;
+    border: white solid 1px;
+    translate: 0 -8px;
+    height: 20px;
+}
+
+.Apply:hover{
+    color: gold;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        display: flex;
+        background: black;
+        padding: 4.8px;
+        z-index: 100;
+        width: 100%;
+    } 
+
+    .navbar-links{
+        position: absolute;
+        right: 20px;
+        z-index: 100;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-top: 6px;
+        padding: 18.4px; 
+        margin-right: -21px;
+        translate: 0 -8px;
+        border-radius: 0 0 0 10px;
+        border: none solid 2px;
+        height: 20px;
+        font-size: 13px;
+        
+    }
+    .Apply{
+        background: rgb(33, 0, 251);
+        padding: 8px;
+        border-radius: 5px;
+        border: white solid 1px;
+        translate: 0 -8px;
+        height: 15px;
+    }
+}

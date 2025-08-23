@@ -1,0 +1,163 @@
+.AfirstDesc{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 15px;
+    width: 1385px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-family: "Edu SA Hand", serif;
+    padding-left: 25px;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    translate: 0 -25px;
+}
+
+.Avalues{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    width: 700px;
+    border-radius:8px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.valuesP{
+    font-size: 21px;
+    font-family: "Edu SA Hand", serif;
+}
+
+.valuesP ul li{
+    text-align: left;
+}
+
+.valuesP ul{
+    margin-left: 80px;
+}
+
+  .Apricing{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    width: 700px;
+    border-radius:8px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.ApricingP{
+    font-size: 21px;
+    font-family: "Edu SA Hand", serif;
+}
+
+.AhomeCont{
+    border: black none;
+    display: flex;
+    translate: 0 70px;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-left: 9px;
+    height: max-content;
+}
+
+.homeCont div{
+    margin-top: -20px;
+}
+
+.Contactss{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    width: 1416px;
+    border-radius:8px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.contactP{
+    font-size: 21px;
+    font-family: "Edu SA Hand", serif;
+}
+
+.Alocations{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    width: 1416px;
+    border-radius:8px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    opacity: 1;
+    height: 740px;   
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for the main container */
+    .AhomeCont {
+        flex-direction: column; /* Stack all child divs vertically */
+        translate: 0; /* Remove fixed translation */
+        padding: 0 10px; /* Add padding to the sides */
+    }
+
+    /* General adjustments for all content blocks */
+    .AfirstDesc,
+    .Avalues,
+    .Apricing,
+    .Alocations,
+    .Contactss {
+        width: 100%; /* Make each block take up the full width */
+        margin: 10px 0; /* Add vertical spacing between blocks */
+        box-sizing: border-box; /* Include padding in the width calculation */
+        font-size: 16px; /* Adjust font size for better readability on mobile */
+        translate: 0; /* Remove any fixed translations */
+        text-align: center;
+    }
+
+    /* Specific adjustments for the intro section */
+    .AfirstDesc {
+        padding: 15px; /* Adjust padding */
+    }
+
+    /* Specific adjustments for values and pricing */
+    .Avalues,
+    .Apricing {
+        text-align: left; /* Align text to the left */
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .valuesP ul {
+        margin-left: 20px; /* Adjust the list margin */
+    }
+
+    /* Specific adjustments for the locations section */
+    .Alocations {
+        height: auto; /* Let the height adjust to the content */
+    }
+
+    .Alocations iframe {
+        width: 100%; /* Make the iframe fill the container's width */
+        height: 300px; /* Set a fixed height for the map */
+    }
+
+    /* Specific adjustments for the contacts section */
+    .Contactss {
+        flex-direction: column; /* Stack the contact boxes vertically */
+        gap: 15px; /* Reduce the gap between boxes */
+        text-align: left;
+        text-align: center;
+    }
+}

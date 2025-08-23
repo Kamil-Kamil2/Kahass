@@ -1,0 +1,169 @@
+.ApIntro{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px;
+    width: 1416px;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.apartments{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    width: 1416px;
+    height: 80vh;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    /* box-shadow: 0px 0px 15px 0px rgb(0, 0, 0); */
+    margin-left: 5px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.ApImage{
+    height: 258px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.apartment{
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    height: 265px;
+    width: 1350px;
+    position: relative;
+    translate: 20px 5px;
+}
+
+.ApContent{
+    margin-top: -60px;
+    margin-left: -5px;
+}
+
+.ApConTitle{
+    margin-bottom: -39px;
+    font-size: 55px;
+    font-family: "Edu SA Hand", serif;
+}
+
+.ApLoc{
+    font-weight: 200;
+    color: #888;
+}
+
+.deepInfo{
+    margin-top: -25px;
+    translate: 100px 0;
+}
+
+.info{
+    font-family: "Edu SA Hand", serif;
+    font-size: 19px;
+}
+
+.ApButtons{
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    top:4px;
+    right: 15px;
+}
+.locationBtn{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.locationBtn:hover{
+    font-size: 55px;
+    margin: -3px;
+}
+
+.applyBtn{
+    background: rgb(33, 0, 251);
+    border-radius: 0px;
+    border: white solid 1px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    scale: 2.9;
+    translate: -50px 120px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.applyBtn:hover{
+    background-color: gold;
+    border-radius: 3px;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .ApIntro{
+        width: 95%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .apartments{
+        width: 95%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .apartment{
+        display: flex;
+        gap: 50px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 8px;
+        height: 570px;
+        width: 90%;
+        position: relative;
+        translate: 10px 5px;
+        flex-direction: column;
+    }
+    .ApConTitle{
+        margin-bottom: -39px;
+        font-size: 25px;
+        font-family: "Edu SA Hand", serif;
+    }
+    .ApLoc{
+        font-weight: 200;
+        font-size: 18px;
+        margin-top: 45px;
+        color: #888;
+    }
+
+    .deepInfo{
+        margin-top: 25px;
+        translate: 0px 0;
+        font-size: 10px;
+    }
+
+    .info{
+        font-family: "Edu SA Hand", serif;
+        font-size: 15px;
+    }
+    .ApButtons{
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+        top:-10px;
+        right: 0px;
+    }
+    .applyBtn{
+       translate: -150px 450px;
+    }
+}
